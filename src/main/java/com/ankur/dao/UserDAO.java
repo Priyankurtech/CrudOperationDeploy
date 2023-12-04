@@ -11,7 +11,7 @@ import java.util.List;
 import com.ankur.model.User;
 
 public class UserDAO {
-    private String jdbcURL = "jdbc:mysql://192.168.1.118:3306/ankur?useSSL=false";
+    private String jdbcURL = "jdbc:mysql://192.168.1.115:3306/ankur?useSSL=false";
     private String jdbcUsername = "ankur";
     private String jdbcPassword = "Ankur1234!";
 
