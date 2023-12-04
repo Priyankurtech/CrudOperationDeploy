@@ -39,7 +39,6 @@
 			<table class="table table-bordered">
 				<thead>
 					<tr>
-						<th>ID</th>
 						<th>Name</th>
 						<th>Email</th>
 						<th>Country</th>
@@ -51,7 +50,6 @@
 					<c:forEach var="user" items="${listUser}">
 
 						<tr>
-							<td><c:out value="${user.id}" /></td>
 							<td><c:out value="${user.name}" /></td>
 							<td><c:out value="${user.email}" /></td>
 							<td><c:out value="${user.country}" /></td>
